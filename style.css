@@ -1,0 +1,327 @@
+ /* home page css */
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ .nav-link {
+   transition: all 0.7s;
+ }
+
+ .nav-link:hover {
+   background-color: green;
+   transform: translatex(-7px);
+   color: white;
+ }
+  
+ .nav-link {
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .carousel-item img {
+   width: 100%;
+   height: 690px;
+ }
+
+ .banner-1 {
+   background-color: blueviolet;
+   color: white;
+   padding: 15px;
+
+ }
+
+ .banner-1 img {
+   height: 400px;
+   width: 100%;
+ }
+
+ .card-home {
+   background-color: whitesmoke;
+   box-shadow: 2px 2px 2px 4px blueviolet;
+   padding: 6px;
+ }
+
+ .card img {
+   background-color: gray;
+ }
+
+ .card-home {
+   transition: all 0.7s;
+ }
+
+
+ .card-home:hover {
+   transform: translateY(-8px);
+ }
+
+ .footer {
+   background-color: blueviolet;
+   padding: 10px 10px;
+   margin-top: 10px;
+ }
+
+ .footer img {
+   width: 100px;
+ }
+
+ .footer hr {
+   color: white;
+   border-bottom: 2px solid white;
+ }
+
+ /* end  home page css  */
+ /* start about css  */
+
+ .about-hero {
+   background-color: rgba(0, 187, 232, 0.3);
+ }
+  /* Heading Animation */
+  /* start home animation */
+.banner-1 h2{
+    animation: slideLeft 1.5s ease-in-out infinite;
+
+}
+.banner-1 p{
+    animation: slideLeft 1.5s ease-in-out infinite;
+
+  }
+  .banner-1 button{
+    animation: slideLeft 1.5s ease-in-out infinite;
+
+  }
+  .banner-1 img{
+    animation: slideLeft 2s ease-in-out infinite;
+
+  }
+
+
+
+
+  /* end home animation */
+/* start about animation */
+  .about-hero h2 {
+    animation: slideLeft 1.5s ease-in-out infinite;
+}
+
+/* Main Heading */
+ .about-hero h3 {
+    animation: slideLeft 1.5s ease-in-out infinite;
+}
+
+/* Paragraph */
+ .about-hero p {
+    animation: slideLeft 1.5s ease-in-out infinite;
+}
+
+/* Button */
+ .about-hero button {
+    animation: slideLeft 1.5s ease-in-out infinite;
+}
+  /* img */
+ .about-hero img{
+    animation: slideLeft 2s ease-in-out infinite;
+
+}
+/* banner animation about page */
+.banner-about h2{
+    animation: slideLeft 1.5s ease-in-out 3;
+  
+}
+.banner-about p{
+    animation: slideLeft 1.5s ease-in-out 3;
+
+}
+.banner-about button{
+    animation: slideLeft 1.5s ease-in-out 3;
+
+}
+.banner-about img{
+    animation: slideLeft 2s ease-in-out 3;
+
+}
+/* banner aniation aboout page */
+  /* end about animation */
+/* product animaytion start */
+ .hero-product h2{
+    animation: slideLeft 1.5s ease-in-out infinite;
+
+ }
+ .hero-product p{
+    animation: slideLeft 1.5s ease-in-out infinite;
+
+ }
+ .hero-product button{
+    animation: slideLeft 1.5s ease-in-out infinite;
+
+ }
+ .hero-product img{
+    animation: slideLeft 2s ease-in-out infinite;
+
+ }
+ .feature-product h2{
+  animation: slidetop 2s ease-in-out infinite;
+
+ }
+ .feature-product p{
+  animation: slidetop 2s ease-in-out infinite;
+
+}
+.feature-product,
+.phone h3{
+  animation: slidetop 2s ease-in-out 3;
+
+}
+.feature-product,
+.phone p{
+  animation: slidetop 2s ease-in-out 3;
+
+}
+ /* product animation end */
+ /* contact animation start */
+ .bannercontact img{
+    animation:  slideLeft 2s ease-in-out infinite;
+
+ }
+ .bannercontact h2{
+    animation: slideLeft 1.5s ease-in-out infinite;
+
+ }
+ .bannercontact p{
+    animation: slideLeft  1.5s ease-in-out infinite;
+
+ }
+ .bannercontact button{
+    animation: slideLeft 1.5s ease-in-out infinite;
+
+ }
+ /* contact animation end */
+/* Keyframes */
+@keyframes slideLeft {
+    from {
+        opacity: 0;
+        transform: translatex(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+@keyframes   slidetop {
+  from{
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+ .banner-about {
+
+   background-color: rgba(0, 102, 255, 0.10);
+
+ }
+
+  .feature {
+   background-color: #5613;
+   color: white;
+   padding: 10px;
+   border: 1px solid blue;
+   border-radius: 12px;
+   text-align: center;
+ }
+      
+ .bannercontact {
+   background: linear-gradient(to right, #362, #514);
+   padding: 10px;
+   color: white;
+ }
+
+ .bannercontact h2 {
+   margin-top: 40px;
+ }
+
+ .contact {
+   overflow: hidden;
+   padding: 20px;
+   border-radius: 12px;
+   box-shadow: 2px 2px 2px 2px bisque;
+   background: rgb(0, 187, 187, 0.10);
+   margin-top: 16px;
+ }
+
+ label {
+   font-size: 20px;
+ }
+
+ .form-control:focus {
+   background-color: rgb(0, 165, 124, 0.10);
+ }
+
+ .input-group label {
+   font-size: 20px;
+   margin-bottom: 10px;
+ }
+
+ .contact-form img {
+   height: 300px;
+   width: 100%;
+ }
+
+ .footer img {
+   transition: all 0.6s;
+ }
+
+ .footer img:hover {
+   transform: translateY(15px);
+
+ }
+
+ .hero-product {
+   padding: 20px;
+   background: linear-gradient(to right, #142, #165, #156);
+   color: white;
+ }
+
+ .feature-product {
+   background-color: #514;
+   color: white;
+   padding: 15px;
+ }
+
+ .phone {
+   background-color: blueviolet;
+   color: white;
+   padding: 5px;
+   text-align: center;
+   border-radius: 12px;
+ }
+
+ .product-card {
+   border: none;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+ }
+
+ .product-card {
+   transition: all 0.5s;
+ }
+
+ .product-card:hover {
+   transform: translateY(-6px);
+ }
+
+ .card-body h3 {
+   color: blue;
+   font-weight: bold;
+ }
