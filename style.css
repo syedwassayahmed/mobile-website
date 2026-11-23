@@ -45,12 +45,9 @@
  .card-home {
    background-color: whitesmoke;
    box-shadow: 2px 2px 2px 4px blueviolet;
-   padding: 6px;
+   padding: 9px;
  }
 
- .card img {
-   background-color: gray;
- }
 
  .card-home {
    transition: all 0.7s;
@@ -84,147 +81,6 @@
  }
   /* Heading Animation */
   /* start home animation */
-.banner-1 h2{
-    animation: slideLeft 1.5s ease-in-out infinite;
-
-}
-.banner-1 p{
-    animation: slideLeft 1.5s ease-in-out infinite;
-
-  }
-  .banner-1 button{
-    animation: slideLeft 1.5s ease-in-out infinite;
-
-  }
-  .banner-1 img{
-    animation: slideLeft 2s ease-in-out infinite;
-
-  }
-
-
-
-
-  /* end home animation */
-/* start about animation */
-  .about-hero h2 {
-    animation: slideLeft 1.5s ease-in-out infinite;
-}
-
-/* Main Heading */
- .about-hero h3 {
-    animation: slideLeft 1.5s ease-in-out infinite;
-}
-
-/* Paragraph */
- .about-hero p {
-    animation: slideLeft 1.5s ease-in-out infinite;
-}
-
-/* Button */
- .about-hero button {
-    animation: slideLeft 1.5s ease-in-out infinite;
-}
-  /* img */
- .about-hero img{
-    animation: slideLeft 2s ease-in-out infinite;
-
-}
-/* banner animation about page */
-.banner-about h2{
-    animation: slideLeft 1.5s ease-in-out 3;
-  
-}
-.banner-about p{
-    animation: slideLeft 1.5s ease-in-out 3;
-
-}
-.banner-about button{
-    animation: slideLeft 1.5s ease-in-out 3;
-
-}
-.banner-about img{
-    animation: slideLeft 2s ease-in-out 3;
-
-}
-/* banner aniation aboout page */
-  /* end about animation */
-/* product animaytion start */
- .hero-product h2{
-    animation: slideLeft 1.5s ease-in-out infinite;
-
- }
- .hero-product p{
-    animation: slideLeft 1.5s ease-in-out infinite;
-
- }
- .hero-product button{
-    animation: slideLeft 1.5s ease-in-out infinite;
-
- }
- .hero-product img{
-    animation: slideLeft 2s ease-in-out infinite;
-
- }
- .feature-product h2{
-  animation: slidetop 2s ease-in-out infinite;
-
- }
- .feature-product p{
-  animation: slidetop 2s ease-in-out infinite;
-
-}
-.feature-product,
-.phone h3{
-  animation: slidetop 2s ease-in-out 3;
-
-}
-.feature-product,
-.phone p{
-  animation: slidetop 2s ease-in-out 3;
-
-}
- /* product animation end */
- /* contact animation start */
- .bannercontact img{
-    animation:  slideLeft 2s ease-in-out infinite;
-
- }
- .bannercontact h2{
-    animation: slideLeft 1.5s ease-in-out infinite;
-
- }
- .bannercontact p{
-    animation: slideLeft  1.5s ease-in-out infinite;
-
- }
- .bannercontact button{
-    animation: slideLeft 1.5s ease-in-out infinite;
-
- }
- /* contact animation end */
-/* Keyframes */
-@keyframes slideLeft {
-    from {
-        opacity: 0;
-        transform: translatex(-100px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translatex(0);
-    }
-}
-@keyframes   slidetop {
-  from{
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-  to{
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
  .banner-about {
 
    background-color: rgba(0, 102, 255, 0.10);
@@ -250,7 +106,7 @@
    margin-top: 40px;
  }
 
- .contact {
+     .contact {
    overflow: hidden;
    padding: 20px;
    border-radius: 12px;
